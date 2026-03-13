@@ -95,10 +95,12 @@ body {
 
 #header_button_register:hover {
     background-color: #FAB95B;
+    transition-duration: 300ms;
 }
 
 #header_buttons a:hover {
     background-color: #547792;
+    transition-duration: 300ms;
 }
 
 #header_user_controls {
@@ -214,10 +216,13 @@ body {
 
 #booksession_mainbox:hover {
     background-color: #547792;
+    transition-duration: 300ms;
+
 }
 
 #viewservices_mainbox:hover {
     background-color: #FAB95B;
+    transition-duration: 300ms;
 }
 
 #how_it_works_section {
@@ -277,7 +282,7 @@ body {
     font-weight: normal;
     font-size: large;
     margin-top: 1.5in;
-    box-shadow: 0 4px 30px #FAB95B;
+    box-shadow: 0 4px 30px #1A3263;
     margin-bottom: 1.5in;
 }
 
@@ -316,6 +321,7 @@ body {
 
 #newservice_button:hover {
     background-color: #547792;
+    transition-duration: 300ms;
 }
 
 .newservice_arrow {
@@ -360,11 +366,15 @@ body {
     display: flex;
     flex-direction: column;
     margin: 140px auto 60px auto;
-    box-shadow: 0 4px 30px #FAB95B;
     border-radius: 30px;
     width: 300px;
     height: 420px;
     padding: 50px;
+}
+
+#loginbox:hover {
+        box-shadow: 0 4px 30px #1A3263;
+        transition-duration: 300ms;
 }
 
 #loginbox_title {
@@ -414,6 +424,7 @@ body {
 
 #loginbox_button:hover {
     background-color: #547792;
+    transition-duration: 300ms;
 }
 
 #loginbox_register_prompt {
@@ -441,11 +452,15 @@ body {
     display: flex;
     flex-direction: column;
     margin: 140px auto 60px auto;
-    box-shadow: 0 4px 30px #FAB95B;
     border-radius: 30px;
     width: 300px;
     height: fit-content;
     padding: 50px;
+}
+
+#registerbox:hover {
+        box-shadow: 0 4px 30px #1A3263;
+        transition-duration: 300ms;
 }
 
 #registerbox_title {
@@ -497,6 +512,7 @@ body {
 
 #registerbox_button:hover {
     background-color: #547792;
+    transition-duration: 300ms;
 }
 
 #registerbox_login_prompt {
@@ -510,3 +526,178 @@ body {
     text-decoration: none;
     font-weight: bold;
 }
+
+#servicespage_title {
+    text-align: center;
+    color: #1A3263;
+    font-size: 0.4in;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+#servicespage_paragraph {
+    text-align: center;
+    color: #547792;
+    font-size: 0.2in;
+    margin-top: -20px;
+    margin-bottom: 60px;
+}
+
+#servicesoverview {
+    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -90px;
+    margin-bottom: 10px;
+}
+
+#chemclean {
+    background-color: #E8E2DB;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin: 140px auto 60px auto;
+    border-radius: 30px;
+    width: 220px;
+    height: 285px;
+    padding: 50px;
+    color:#1A3263;
+    flex-wrap: wrap;
+}
+
+#chemclean:hover {
+    box-shadow: 0 4px 30px #1A3263;
+    transition-duration: 300ms;
+}
+
+#booknowservice_button {
+    background-color: #1A3263;
+    color: #E8E2DB;
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    margin: -5px;
+}
+
+#booknowservice_button:hover {
+    background-color: #547792;
+    transition-duration: 300ms;
+}
+
+#standinandout {
+    background-color: #E8E2DB;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin: 140px auto 60px auto;
+    border-radius: 30px;
+    width: 220px;
+    height: 285px;
+    padding: 50px;
+    color:#1A3263;
+    flex-wrap: wrap;
+}
+
+#standinandout:hover {
+    box-shadow: 0 4px 30px #1A3263;
+    transition-duration: 300ms;
+}
+
+#incleanonly {
+    background-color: #E8E2DB;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin: 140px auto 60px auto;
+    border-radius: 30px;
+    width: 220px;
+    height: 285px;
+    padding: 50px;
+    color:#1A3263;
+    flex-wrap: wrap;
+}
+
+#incleanonly:hover {
+    box-shadow: 0 4px 30px #1A3263;
+    transition-duration: 300ms;
+}
+
+#outcleanonly {
+    background-color: #E8E2DB;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin: 140px auto 60px auto;
+    border-radius: 30px;
+    width: 220px;
+    height: 285px;
+    padding: 50px;
+    color:#1A3263;
+    flex-wrap: wrap;
+}
+
+#outcleanonly:hover {
+    box-shadow: 0 4px 30px #1A3263;
+    transition-duration: 300ms;
+}
+
+#servicespage_title {
+    text-align: center;
+    color: #1A3263;
+    font-size: 0.4in;
+    font-weight: bold;
+    margin-top: 150px;
+}
+
+#newservice-section {
+    margin-top: -30px;
+}
+
+#newservice-section_title {
+    text-align: center;
+    color: #1A3263;
+    font-size: 0.4in;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+#deliveryclean{
+    background-color: #E8E2DB;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin: 140px auto 60px auto;
+    border-radius: 30px;
+    width: 670px;
+    height: 285px;
+    padding: 50px;
+    color:#1A3263;
+    flex-wrap: wrap;
+    box-shadow: 0 4px 30px #547792;
+    margin-top: -10px;
+}
+
+#newservice-section_paragraph{
+    text-align: center;
+    color: #547792;
+    font-size: 0.2in;
+    margin-top: -20px;
+    margin-bottom: 60px;
+}
+
+#deliveryclean_pic {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 30px;
+    margin-left: 70px;
+}
+
+#deliveryclean:hover {
+    box-shadow: 0 4px 30px #1A3263;
+    transition-duration: 300ms;
+}
+
