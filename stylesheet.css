@@ -972,6 +972,8 @@ body {
     margin-left: 125px;
     font-size: 0.4cm;
     display: flex;
+    width: fit-content;
+    text-decoration: none;
 }
 
 .submit-btn:hover {
