@@ -701,3 +701,323 @@ body {
     transition-duration: 300ms;
 }
 
+#paymenttitle {
+    text-align: center;
+    color: #1A3263;
+    font-size: 0.4in;
+    font-weight: bold;
+    margin-top: 150px;
+}
+
+#paymenttitleparagraph {
+    text-align: center;
+    color: #547792;
+    font-size: 0.2in;
+    margin-top: -20px;
+    margin-bottom: 60px;
+}
+
+#Order_Summary {
+    background-color: #E8E2DB;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin: 140px auto 60px auto;
+    border-radius: 30px;
+    width: 670px;
+    height: fit-content;
+    padding: 50px;
+    color:#1A3263;
+    flex-wrap: wrap;
+    box-shadow: 0 4px 30px #547792;
+    border: none;
+}
+
+#ordersummary_paragraph {
+    color: #1A3263;
+    font-size: 0.4cm;
+    margin-top: -15px;
+    margin-bottom: 20px;
+}
+
+#ordersummary_date {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: fit-content;
+    margin-left: 10px;
+    background-color: #ccc;
+}
+
+#ordersummary_time {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: fit-content;
+    margin-left: 10px;
+    background-color: #ccc;
+}
+
+#payment-methods-title {
+    text-align: center;
+    color: #1A3263;
+    font-size: 0.3in;
+    font-weight: bold;
+    margin-top: 150px;
+}
+
+#Payment_Methods_Icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 60px;
+    border: none;
+    border-radius: 10px;
+    background-color: #E8E2DB;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#card-selection {
+    width: 300px;
+    padding: 10px;
+    margin: 20px auto;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    color: #1A3263;
+    font-size: 16px;
+    background-color: #E8E2DB;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+    box-shadow: 0 4px 15px #1A3263;
+}
+
+#card-selection:focus {
+    outline: none;
+    border-color: #1A3263;
+    box-shadow: 0 0 8px rgba(26, 50, 99, 0.3);
+}
+
+#card-details {
+    width: 350px;
+    padding: 10px;
+    margin: 20px auto;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    color: #1A3263;
+    font-size: 16px;
+    background-color: #E8E2DB;
+    box-sizing: border-box;
+    padding: 10px;
+    gap: 10px;
+    box-shadow: 0 4px 30px #1A3263;
+}
+
+#Card_Number {
+    border: none;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: #E8E2DB;
+}
+
+#Card_Holder {
+    border: none;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: #E8E2DB;
+}
+
+#Expiration_Date {
+    border: none;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: #E8E2DB;
+}
+
+#CVV {
+    border: none;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: #E8E2DB;
+}
+
+#confirmpayment-button {
+    background-color: #1A3263;
+    color: #E8E2DB;
+    border-radius: 30px;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 24%;
+}
+
+#confirmpayment-button:hover {
+    background-color: #547792;
+    transition-duration: 300ms;
+    display: block;
+}
+
+#InstaPay {
+    background-color: #E8E2DB;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 140px auto 60px auto;
+    border-radius: 30px;
+    width: 670px;
+    height: fit-content;
+    padding: 50px;
+    color:#1A3263;
+    flex-wrap: wrap;
+    box-shadow: 0 4px 30px #547792;
+}
+
+#reservationtitle {
+    text-align: center;
+    color: #1A3263;
+    font-size: 0.4in;
+    font-weight: bold;
+    margin-top: 150px;
+}
+
+#outshop-cleaning {
+    width: 500px;
+    padding: 10px;
+    margin: 20px auto;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    color: #1A3263;
+    font-size: 16px;
+    background-color: #E8E2DB;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+    box-shadow: 0 4px 30px #547792;
+}
+
+#serviceclean-title {
+    color: #1A3263;
+}
+
+#serviceclean-paragraph {
+    color: #547792;
+    margin-top: -15px;
+}
+
+#first-name {
+    border: none;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+#last-name {
+    border: none;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#email {
+    border: none;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#phone {
+    border: none;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#servicepick-paragraph {
+    margin-top: 30px;
+}
+
+#servicepick-btn1 {
+    margin-top: 15px;
+}
+
+#serviceick-btn2 {
+    margin-top: 10px;
+}
+
+
+.submit-btn {
+    background-color: #1A3263;
+    color: #E8E2DB;
+    border-radius: 30px;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 125px;
+    font-size: 0.4cm;
+    display: flex;
+}
+
+.submit-btn:hover {
+    background-color: #547792;
+    transition-duration: 300ms;
+    display: block;
+}
+
+#inshop-cleaning {
+    width: 500px;
+    padding: 10px;
+    margin: 20px auto;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    color: #1A3263;
+    font-size: 16px;
+    background-color: #E8E2DB;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+#offerstitle {
+    text-align: center;
+    color: #1A3263;
+    font-size: 0.4in;
+    font-weight: bold;
+    margin-top: 150px;
+}
+
+#offersparagraph {
+    text-align: center;
+    color: #547792;
+    font-size: 0.2in;
+    margin-top: -20px;
+    margin-bottom: 60px;
+}
+
+#offers-csoon {
+    text-align: center;
+    color: #FAB95B;
+    font-size: 0.4in;
+    font-weight: bold;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Washawy</title>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<html>
+
+<body>
+
+  <div id="header">
+    <h1 id="header_title"><a href="homepage.html">Wash-awy</a></h1>
+    <div id="header_buttons">
+      <a id="header_button_home" href="homepage.html">Home</a>
+      <a id="header_button_services" href="services.html">Services</a>
+      <a id="header_button_offers" href="offers.html">Offers</a>
+    </div>
+    <div id="header_register_login">
+      <a id="header_button_login" href="login.html">Login</a>
+      <a id="header_button_register" href="register.html">Register</a>
+    </div>
+  </div>
+
+  <h1 id="reservationtitle">Reservation</h1>
+
+  <main>
+    <section id="outshop-cleaning">
+      <h2 id="serviceclean-title">OutShop Cleaning</h2>
+      <p id="serviceclean-paragraph">Reserve A Home Delivery Cleaning.</p>
+
+      <form>
+        <div class="form-group">
+          <label for="first-name">First Name</label>
+          <input type="text" id="first-name" placeholder="e.g. Giovanni" maxlength="14" required>
+        </div>
+
+        <div class="form-group">
+          <label for="last-name">Last Name</label>
+          <input type="text" id="last-name" placeholder="e.g. Ehab" maxlength="14" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="e.g. Gxxxxxxx6@gmail.com" required>
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" placeholder="01xxxxxxxxx" pattern="01[0125][0-9]{8}" maxlength="11" required>
+        </div>
+        <div id="outpick">
+          <legend id="servicepick-paragraph">Which Service You Desire!</legend>
+          <label><input id="servicepick-btn1" type="radio" name="OutShop"> Chemical Cleaning</label><br>
+          <label><input id="servicepick-btn2" type="radio" name="OutShop"> Standard IN & Out</label><br>
+        </div>
+
+        <div class="submit-box">
+          <p>Ready to go? Click below to confirm your reservation.</p>
+          <button type="submit" class="submit-btn">Confirm Reservation</button>
+        </div>
+      </form>
+    </section>
+
+    <section id="inshop-cleaning">
+      <h2>InShop Cleaning</h2>
+      <p>Reserve An InShop Cleaning.</p>
+
+      <div class="form-group">
+          <label for="first-name">First Name</label>
+          <input type="text" id="first-name" placeholder="e.g. Giovanni" maxlength="14" required>
+        </div>
+
+        <div class="form-group">
+          <label for="last-name">Last Name</label>
+          <input type="text" id="last-name" placeholder="e.g. Ehab" maxlength="14" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="e.g. Gxxxxxxx6@gmail.com" required>
+        </div>
+
+        <div class="form-group">
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" placeholder="01xxxxxxxxx" pattern="01[0125][0-9]{8}" maxlength="11" required>
+        </div>
+      <form>
+        <label><input type="radio" name="InShop"> Chemical Cleaning</label><br>
+        <label><input type="radio" name="InShop"> Standard In & Out</label><br>
+        <label><input type="radio" name="InShop"> Interior Cleaning</label><br>
+        <label><input type="radio" name="InShop"> Exterior Cleaning</label><br>
+
+        <p>
+          Choose A Day! <input type="date">
+          And Time! <input type="time">
+        <div id="confirmation-box-inshop">
+          <p>By clicking confirm, you agree to show up at the selected time.</p>
+          <button type="submit" class="submit-btn">Confirm Reservation</button>
+        </div>
+        </p>
+
+      </form>
+    </section>
+  </main>
+
+         <div id="footer">
+        <div id="footersection1">
+            <h2>Wash-awy</h2>
+            <p>Egypt's premier car care destination. We combine <br> advanced technology with traditional <br>
+                craftsmanship to give your car the shine it <br> deserves.</p>
+        </div>
+
+        <div id="footersection2">
+            <h3>Quick Links</h3>
+            <a href="homepage.html">Home</a> <br>
+            <a href="services.html">Our Services</a><br>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div id="footersection3">
+            <h3>Follow Us</h3>
+            <a href="https://facebook.com/washawy" target="_blank">Facebook</a><br>
+            <a href="https://instagram.com/washawy" target="_blank">Instagram</a><br>
+            <a href="https://twitter.com/washawy" target="_blank">Twitter</a><br>
+        </div>
+    </div>
+    <p class="rightsparagraph">© 2024 Wash-awy. All rights reserved.</p>
+
+</body>
+
+</html>
