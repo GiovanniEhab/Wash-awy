@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Washawy</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<html>
+
+<body>
+
+    <div id="header">
+        <h1 id="header_title"><a href="homepage.html">Wash-awy</a></h1>
+        <div id="header_buttons">
+            <a id="header_button_home" href="homepage.html">Home</a>
+            <a id="header_button_services" href="services.html">Services</a>
+            <a id="header_button_offers" href="offers.html">Offers</a>
+        </div>
+        <div id="header_register_login">
+            <a id="header_button_login" href="login.html">Login</a>
+            <a id="header_button_register" href="register.html">Register</a>
+        </div>
+    </div>
+    <div id="Payment">
+        <h1 id="paymenttitle">You Are Almost There!</h1>
+        <p id="paymenttitleparagraph">Please Review Your Order Before Proceeding.</p>
+        <div id="Order_Summary">
+            <h2>Order Summary</h2>
+            <p id="ordersummary_paragraph">Service: OutShop Cleaning.</p>
+            <p>Date: <input id="ordersummary_date" type="date" name="OrderDate" required></p>
+            <p>Time: <input id="ordersummary_time" type="time" name="OrderTime" required></p>
+            <p>Total Price: 900 EGP</p>
+        </div>
+
+        <div id="Payment_Methods">
+            <h2 id="payment-methods-title">Methods We Accept</h2>
+
+            <div id="Payment_Methods_Icons">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Visa_Inc._logo_%282014%E2%80%932021%29.svg/1280px-Visa_Inc._logo_%282014%E2%80%932021%29.svg.png"
+                    alt="Visa" width="100" height="35">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Mastercard-logo.svg/1280px-Mastercard-logo.svg.png"
+                    alt="MasterCard" width="100" height="35">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Apple_Pay_logo.svg/1280px-Apple_Pay_logo.svg.png"
+                    alt="Apple Pay" width="100" height="35">
+            </div>
+        </div>
+
+        <p></p><br>
+        <select id="card-selection" name="CardBrand" required>
+            <option value="" disabled selected>Select Payment Method</option>
+            <option value="Visa">Visa</option>
+            <option value="MasterCard">MasterCard</option>
+            <option value="Apple Pay">Apple Pay</option>
+        </select><br>
+
+        <div id="card-details">
+            <div>
+                <label>Card Number</label>
+                <input  id="Card_Number" type="tel" name="CardNumber" placeholder="0000 0000 0000 0000" maxlength="19" required>
+            </div>
+
+            <div>
+                <label>Card Holder</label>
+                <input id="Card_Holder" type="text" name="CardHolder" placeholder="e.g. Giovanni Ehab" maxlength="25" required>
+            </div>
+
+            <div>
+                <label>Expiration Date</label>
+                <input id="Expiration_Date" type="text" name="ExpirationDate" placeholder="MM/YY" maxlength="5" size="5" required>
+            </div>
+
+            <div>
+                <label>CVV</label>
+                <input id="CVV" type="tel" name="CVV" placeholder="123" maxlength="3" size="3" required>
+            </div>
+
+            <button id="confirmpayment-button" type="button" class="submit-btn">Confirm Payment</button>
+        </div>
+        <div id="InstaPay">
+            <h2>Pay with InstaPay</h2>
+            <p>Scan the QR code below to pay with InstaPay.</p>
+            <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=Placeholder"
+                alt="QR Code Placeholder" width="150" height="150">
+            <p>Please Send A Confirmation Message With Payment ScreenShot To 01xxxxxxxxx.</p>
+            <img src="https://upload.wikimedia.org/wikipedia/ar/f/fa/%D8%A7%D9%86%D8%B3%D8%AA%D8%A7%D8%A8%D8%A7%D9%8A.png"
+                alt="InstaPay" width="100" height="35">
+        </div>
+
+
+</body>
+
+<div id="footer">
+    <div id="footersection1">
+        <h2>Wash-awy</h2>
+        <p>Egypt's premier car care destination. We combine <br> advanced technology with traditional <br>
+            craftsmanship to give your car the shine it <br> deserves.</p>
+    </div>
+    <div id="footersection2">
+        <h3>Quick Links</h3>
+        <a href="homepage.html">Home</a> <br>
+        <a href="services.html">Our Services</a><br>
+        <a href="contact.html">Contact</a>
+    </div>
+    <div id="footersection3">
+        <h3>Follow Us</h3>
+        <a href="https://facebook.com/washawy" target="_blank">Facebook</a><br>
+        <a href="https://instagram.com/washawy" target="_blank">Instagram</a><br>
+        <a href="https://twitter.com/washawy" target="_blank">Twitter</a><br>
+    </div>
+</div>
+<p class="rightsparagraph">© 2024 Wash-awy. All rights reserved.</p>
+
+</html>
