@@ -31,7 +31,7 @@ const reservationSchema = new mongoose.Schema({
         default: 'upcoming',
     },
         startDate: {
-            type: Date,
+            type: Date, //Year-Month-Day e.g. 2026-07-05
             required: [true, 'Reservation start date is required'],
             validate: {
                 validator: function(value) {

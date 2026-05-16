@@ -5,23 +5,25 @@ import {
     createReservation,
     getReservations,
     getUserReservation,
-    getReservationDetails, updateReservation
-} from '../controllers/reservation.controllers.js';
+    getReservationDetails, updateReservation, updateReservationStatus
+    } from '../controllers/reservation.controllers.js';
+import authorizeManager from '../middlewares/Manager.middleware.js';
+import { authorizeStaff } from '../middlewares/staff.middleware.js';
 
 
 const reservationRouter = Router();
 
-reservationRouter.get('/',authorize, getReservations);
+reservationRouter.get('/',authorize,authorizeStaff, getReservations);
 
-reservationRouter.get('/:id', authorize, getReservationDetails);
+reservationRouter.get('/:id', authorize, authorizeStaff, getReservationDetails);
+
+reservationRouter.put('/:id/status',authorize, authorizeStaff, updateReservationStatus);
 
 reservationRouter.post('/', authorize, createReservation);
 
-reservationRouter.put('/:id', authorize, updateReservation);
+reservationRouter.put('/:id', authorize,authorizeStaff,authorizeManager, updateReservation);
 
-reservationRouter.get('/user/:id', authorize, getUserReservation);
-
-reservationRouter.put('/:id/cancel', authorize ,cancelReservation);
+reservationRouter.put('/:id/cancel', authorize ,authorizeManager, cancelReservation);
 
 
 export default reservationRouter;

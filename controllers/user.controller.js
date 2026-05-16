@@ -53,23 +53,32 @@ export const getUser = async (req, res, next) => {
 }
 
 export const updateUser = async (req, res, next) => {
-    try{
-        if(req.user._id.toString() !== req.user._id) {
+    try {
+        if (req.user._id.toString() !== req.params.id) {
             const error = new Error('You are not authorized to update this profile');
-            error.status = 403;
+            error.statusCode = 403;
             throw error;
         }
 
-        const updatedUser = await User.findByIdAndUpdate(req.params.id,req.body,{new: true, runValidators:true}).select(-'password');
-    res.status(200).json({success: true, data: updatedUser});
-    }catch(error){
+        const updatedUser = await User.findByIdAndUpdate(
+            req.params.id, 
+            req.body, 
+            { new: true, runValidators: true }
+        ).select('-password');
+
+        res.status(200).json({ 
+            success: true, 
+            message: 'User updated successfully',
+            data: updatedUser 
+        });
+    } catch (error) {
         next(error);
     }
 }
 
 export const deleteUser = async (req, res, next) => {
     try{
-        if(req.user._id.toString() !== req.user._id) {
+        if(req.user._id.toString() !== req.user.id) {
             const error = new Error('You are not authorized to delete this profile');
             error.status = 403;
             throw error;
